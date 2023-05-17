@@ -1,0 +1,7 @@
+# SSH client configuration = private key = ~/.ssh/school
+# SSH client configuration configured to refuse to authenticate using a password
+
+
+Host * 
+       PasswordAuthentication no 
+       IdentifyFile ~/.ssh/school
